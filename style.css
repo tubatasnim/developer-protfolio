@@ -5,13 +5,14 @@ body{
 h1{
     font-size:40px;
     
+    
 }
 .color{
     color:orange;
 
 
 }
-section{
+.flexibal-container{
    display:flex;
    margin-bottom:5%;
     
@@ -20,6 +21,7 @@ section{
 .half-width{
     width:50%;
     padding-left:80px;
+   
   
 }
 .half-width img{
@@ -51,4 +53,38 @@ section{
 
 
 }
-    
+.experience-area{
+
+    background-image: url(images/image.png) ;
+    background-repeat: no-repeat;
+    background-position-y:30px ;
+    background-position-x: 50%;
+
+}
+.experience-item{
+    box-shadow: 20px 20px 50px gray;
+    width:40%;
+    margin-left: 5%;
+    margin-right:5% ;
+    padding-left:10px;
+    border-radius: 20px;
+   
+}
+#web-dev{
+    border-left:8px solid;
+    border-image: linear-gradient(orange,red);
+    border-image-slice: 1%;
+
+}
+#web-item{
+
+    border-left:8px solid;
+    border-image: linear-gradient(green,yellow);
+    border-image-slice: 1%;
+
+
+}
+footer p{
+    text-align:center;
+
+}
